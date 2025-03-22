@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import Papa from 'papaparse';
 
-// Define the interface for a person
 interface Person {
   name: string;
   affiliation: string;
@@ -17,12 +17,44 @@ const KeywordSearchApp2: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [searchPerformed, setSearchPerformed] = useState<boolean>(false);
 
-  // Load and parse the CSV file on component mount
   useEffect(() => {
     const loadData = async () => {
       try {
-        // In a real implementation, this would read the actual uploaded file
-        // For demo purposes, we'll use sample data
+        const csvFilePath = process.env.PUBLIC_URL + '/data/experts.csv';
+        const response = await fetch(csvFilePath);
+        
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        
+        const csvText = await response.text();
+        
+        if (csvText.trim().startsWith('<!DOCTYPE html>')) {
+          throw new Error('Received HTML instead of CSV data. Check the file path.');
+        }
+        
+        Papa.parse(csvText, {
+          header: true,
+          skipEmptyLines: true,
+          complete: (results) => {
+            const parsedData = results.data.map((row: any) => ({
+              name: row.name || '',
+              affiliation: row.affiliation || '',
+              keyword1: row.keyword1 || '',
+              keyword2: row.keyword2 || '',
+              keyword3: row.keyword3 || ''
+            }));
+            
+            setData(parsedData as Person[]);
+            setIsLoading(false);
+          },
+          error: (error: Error) => {
+            setError("Failed to parse CSV data. Please check the file format.");
+            setIsLoading(false);
+          }
+        });
+      } catch (error: any) {
+        // Fall back to sample data if we can't load the CSV
         const sampleData: Person[] = [
           { name: "John Smith", affiliation: "University of Technology", keyword1: "machine learning", keyword2: "neural networks", keyword3: "computer vision" },
           { name: "Maria Garcia", affiliation: "Research Institute", keyword1: "data mining", keyword2: "statistics", keyword3: "big data" },
@@ -37,10 +69,7 @@ const KeywordSearchApp2: React.FC = () => {
         ];
         
         setData(sampleData);
-        setIsLoading(false);
-      } catch (error) {
-        console.error("Error loading data:", error);
-        setError("Failed to load data. Please try again.");
+        setError(`Note: Using sample data. Couldn't load CSV: ${error.message}`);
         setIsLoading(false);
       }
     };
@@ -48,7 +77,6 @@ const KeywordSearchApp2: React.FC = () => {
     loadData();
   }, []);
 
-  // Handle search input changes
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value);
     if (e.target.value === '') {
@@ -57,7 +85,6 @@ const KeywordSearchApp2: React.FC = () => {
     }
   };
 
-  // Perform the search
   const handleSearch = () => {
     if (!searchTerm.trim()) {
       setSearchResults([]);
@@ -67,9 +94,8 @@ const KeywordSearchApp2: React.FC = () => {
 
     const normalizedSearchTerm = searchTerm.toLowerCase().trim();
     const results = data.filter(person => 
-      // Search by name
       person.name.toLowerCase().includes(normalizedSearchTerm) ||
-      // Search by keywords
+      person.affiliation.toLowerCase().includes(normalizedSearchTerm) ||
       person.keyword1.toLowerCase().includes(normalizedSearchTerm) || 
       person.keyword2.toLowerCase().includes(normalizedSearchTerm) || 
       person.keyword3.toLowerCase().includes(normalizedSearchTerm)
@@ -79,7 +105,6 @@ const KeywordSearchApp2: React.FC = () => {
     setSearchPerformed(true);
   };
 
-  // Handle Enter key press
   const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
       handleSearch();
@@ -97,12 +122,14 @@ const KeywordSearchApp2: React.FC = () => {
         <div className="text-center py-10">
           <p className="text-lg text-gray-700">Loading data...</p>
         </div>
-      ) : error ? (
-        <div className="text-center py-10">
-          <p className="text-lg text-red-600">{error}</p>
-        </div>
       ) : (
         <div>
+          {error && (
+            <div className="mb-4 p-3 bg-yellow-50 border border-yellow-200 rounded text-yellow-800">
+              {error}
+            </div>
+          )}
+
           <div className="flex mb-6">
             <input
               type="text"
