@@ -134,7 +134,7 @@ const KeywordSearchApp2: React.FC = () => {
             <input
               type="text"
               className="flex-grow p-3 border border-gray-300 rounded-l shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Enter a name or keyword (e.g., Smith, machine learning)"
+              placeholder="Enter a name or keyword (e.g., Kremer, sedimentology)"
               value={searchTerm}
               onChange={handleSearchChange}
               onKeyPress={handleKeyPress}
