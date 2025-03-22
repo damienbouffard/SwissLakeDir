@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SwissLakeDir/static/css/main.f855e6bc.css",
-    "main.js": "/SwissLakeDir/static/js/main.f437d26c.js",
+    "main.js": "/SwissLakeDir/static/js/main.40d9bb8d.js",
     "static/js/453.0a9efd22.chunk.js": "/SwissLakeDir/static/js/453.0a9efd22.chunk.js",
     "index.html": "/SwissLakeDir/index.html",
     "main.f855e6bc.css.map": "/SwissLakeDir/static/css/main.f855e6bc.css.map",
-    "main.f437d26c.js.map": "/SwissLakeDir/static/js/main.f437d26c.js.map",
+    "main.40d9bb8d.js.map": "/SwissLakeDir/static/js/main.40d9bb8d.js.map",
     "453.0a9efd22.chunk.js.map": "/SwissLakeDir/static/js/453.0a9efd22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.f437d26c.js"
+    "static/js/main.40d9bb8d.js"
   ]
 }
