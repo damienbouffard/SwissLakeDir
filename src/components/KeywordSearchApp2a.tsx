@@ -9,35 +9,13 @@ interface Person {
   keyword3: string;
 }
 
-interface DirectoryStats {
-  expertCount: number;
-  expertiseCount: number;
-  affiliationCount: number;
-}
-
-// Simplified Pictogram component that shows only one icon per topic
-const Pictogram: React.FC<{ icon: string; count: number; color: string }> = ({ 
-  icon, count, color 
-}) => {
-  return (
-    <div className="flex justify-center mb-2">
-      <span className={`text-4xl ${color}`}>{icon}</span>
-    </div>
-  );
-};
-
-const KeywordSearchApp: React.FC = () => {
+const KeywordSearchApp2: React.FC = () => {
   const [data, setData] = useState<Person[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [searchResults, setSearchResults] = useState<Person[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [searchPerformed, setSearchPerformed] = useState<boolean>(false);
-  const [stats, setStats] = useState<DirectoryStats>({
-    expertCount: 0,
-    expertiseCount: 0,
-    affiliationCount: 0
-  });
 
   useEffect(() => {
     const loadData = async () => {
@@ -67,29 +45,7 @@ const KeywordSearchApp: React.FC = () => {
               keyword3: row.keyword3 || ''
             }));
             
-            const personData = parsedData as Person[];
-            setData(personData);
-            
-            // Calculate statistics
-            const uniqueExperts = new Set(personData.map(p => p.name)).size;
-            
-            // Collect all keywords and filter out empty ones
-            const allKeywords = [
-              ...personData.map(p => p.keyword1),
-              ...personData.map(p => p.keyword2),
-              ...personData.map(p => p.keyword3)
-            ].filter(keyword => keyword);
-            const uniqueKeywords = new Set(allKeywords).size;
-            
-            // Get unique affiliations
-            const uniqueAffiliations = new Set(personData.map(p => p.affiliation)).size;
-            
-            setStats({
-              expertCount: uniqueExperts,
-              expertiseCount: uniqueKeywords,
-              affiliationCount: uniqueAffiliations
-            });
-            
+            setData(parsedData as Person[]);
             setIsLoading(false);
           },
           error: (error: Error) => {
@@ -113,14 +69,6 @@ const KeywordSearchApp: React.FC = () => {
         ];
         
         setData(sampleData);
-        
-        // Set sample stats
-        setStats({
-          expertCount: 10,
-          expertiseCount: 24,
-          affiliationCount: 7
-        });
-        
         setError(`Note: Using sample data. Couldn't load CSV: ${error.message}`);
         setIsLoading(false);
       }
@@ -167,38 +115,7 @@ const KeywordSearchApp: React.FC = () => {
     <div className="max-w-4xl mx-auto p-4 bg-gray-50 min-h-screen">
       <header className="mb-8 text-center">
         <h1 className="text-3xl font-bold text-gray-800 mb-2">Swiss Lakes Science & Management Expert Directory Search</h1>
-        <p className="text-gray-600 mb-6">Search for people by name, affiliation or keywords</p>
-        <p className="text-left text-gray-600">
-          This website showcases the diversity of Swiss expertise in lake science and management. It can be used by journalists to find the right expert, by scientists to identify colleagues, 
-          by students to find mentor for their research, or by lake managers to connect with specialists.
-        </p>
-        
-        {/* Statistics visualization */}
-        {!isLoading && (
-          <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-            <h2 className="text-xl font-semibold text-gray-700 mb-4">Overview</h2>
-            
-            <div className="grid grid-cols-3 gap-4">
-              <div className="flex flex-col items-center">
-                <Pictogram icon="👩‍🔬" count={stats.expertCount} color="text-blue-500" />
-                <div className="text-2xl font-bold">{stats.expertCount}</div>
-                <div className="text-sm text-gray-600">Experts</div>
-              </div>
-              
-              <div className="flex flex-col items-center">
-                <Pictogram icon="🔬" count={stats.expertiseCount} color="text-green-500" />
-                <div className="text-2xl font-bold">{stats.expertiseCount}</div>
-                <div className="text-sm text-gray-600">Expertises</div>
-              </div>
-              
-              <div className="flex flex-col items-center">
-                <Pictogram icon="🏢" count={stats.affiliationCount} color="text-purple-500" />
-                <div className="text-2xl font-bold">{stats.affiliationCount}</div>
-                <div className="text-sm text-gray-600">Affiliations</div>
-              </div>
-            </div>
-          </div>
-        )}
+        <p className="text-gray-600">Search for people by name, affiliation or keywords</p>
       </header>
 
       {isLoading ? (
@@ -277,12 +194,11 @@ const KeywordSearchApp: React.FC = () => {
 
       <footer className="mt-12 pt-6 border-t border-gray-200 text-left text-gray-500 text-sm">
         <p>Keyword Directory Search Tool</p>
-        <p>Don't see your name? Don't want to see your name? Suggestions? Please contact Damien Bouffard</p>
+        <p>Don't see your name? Don't want to see your name? Please contact Damien Bouffard</p>
         <p>For privacy reasons, emails are not included</p>
-        <p>v.1.0. 2025.03</p>
       </footer>
     </div>
   );
 };
 
-export default KeywordSearchApp;
+export default KeywordSearchApp2;
