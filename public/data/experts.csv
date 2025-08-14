@@ -1,86 +1,98 @@
-name,affiliation,keyword1,keyword2,keyword3
-Oliver Heiri,University of Basel,paleolimnology,chironomids,environmental reconstruction
-Damien Bouffard,"Eawag, UNIL",hydrodynamic model,transport and mixing in lakes,aquatic physics
-David Janssen,Eawag,Chemistry,Redox,Nutrients
-Piet Spaak,SeeWandel-Climate,Quaggamussel,Zooplankton,Throphic Interactions
-Bastiaan Ibelings,University of Geneva,Phytoplankton,Cyanobacteria,Quagga mussels
-Martin Schmid,Eawag,Lake modelling,Climate change impacts,Heat usage
-Fabian Bärenbold,Eawag,climate change effects,lake simulation,small lakes
-Teresa Einzmann,University of Basel,N2O cycling,Stable isotopes,Microbiology
-Helmut Bürgmann,Eawag,Microbial Ecology (Protozoa),biogeochemical processes,"Antibiotic resistance, bacterial contamination"
-Rolf Kipfer,"Eawag, Umweltisotope",Physcical limnology,tracer & gas hydrology,pore water analysis
-Matthew Blair,EAWAG,Environmental Microbiology,Antimicrobial Resistance ,Anthropogenic Discharges
-Bo Gai,Eawag,physical-biochemical modeling,limnophysics,climate change
-Nemiah Ladd,University of Basel,Sediments,Lipid biomarkers,Algae
-Mortimer Werther,EAWAG ,Remote Sensing,Phytoplankton,Machine learning
-Ricardo  N. Santos ,University of Basel,Lipid biomarkers ,Compound specific stable isotopes ,Paleo environment 
-Nicola Storelli,SUPSI,meromictic lakes,anoxygenic photosynthesis,evolution of life
-Theresa Wietelmann,University of Basel,,,
-Jordon Hemingway,ETH Zürich,organic carbon,mineralogy,pyrite
-Philine Feulner,eawag,lake fish,evolutionary genomics of lake fish,Alpine whitefish ecology and evolution
-Kremer Katrina,University of Bern,Sediment Archive,Natural Hazard,Monitoring
-Lisa Marchand,Eawag,sedimentology,bloom dynamics,paleotemperature reconstructions
-Nicole Russo,ETHZ/EAWAG,Lipids biomarkers,Paleoclimate ,
-Abolfazl Irani Rahaghi,eawag and University of Zurich,Remote sensing,Hydrodynamic modeling,Lake biophysics
-Moritz Lehmann,University of Basel,Biogeochemistry,stable isotopes,microbial ecology
-Elisa Calamita,Eawag,Physical limnology,Modelling,Impacts of Climate Change
-Mathurin  Wamba,Institute of Geological Sciences Bern,"Underflow, interflow","Lake waves, Lacustrine landslide, lacustrine erosion","Foehn effect on the lake, infragravty wave"
-Nora Richter,EAWAG,Biomarkers,Paleo-reconstructions,Biogeochemical cycles
-Daniel McGinnis,UNIGE,Physical limnology,Greenhouse gas/Carbon Turnover,Climate change effects on Lakes
-Nina ZEyen,UNIGE,authigenesis ,Diagenesis,Mg-silicates
-César  Ordóñez ,University of Geneva ,physical limnology ,greenhouse gases,climate change
-Blake Matthews,Eawag,Zooplankton ecology,Food webs,Adaptive evolution 
-Martin Grosjean,"Institute of Geography, Uni Bern",Lake sediments,biogeochemistry,Hyperspectral imaging
-Mridul Thomas,University of Geneva,phytoplankton,ecology,
-Jean Modeste Mushimiyimana,Eawag / ETHZ,Modelling,,
-Nischal Devkota,UNIL,,,
-Silwan Daouk,VSA-Plattform Wasserqualität,Micropollutants,,
-Nathalie Chèvre,Université de Lausanne,Chemical risk assessment,Lake biology,
-Isabel Herr,UNIL,Heat Flux,Alpine,
-Emmanuel Schaad,"University of Bern, Institute of Geography",pollution,sediments,restoration / conservation
-Tomy Doda,Unil,Water movements,Heat exchange,Box models
-FRANCK CATTANEO,HEPIA Genève,Fish,population dynamics,
-Robin Jacquat,Unine,Chemical accumulation,Water Jutsu,Cold swim
-Gaetan Sauter,University of Bern,sediments,bathymetry,deltas
-Stéphanie Girardclos,Université de Genève,lake sediments,limnogeology,dumped ammunitions
-Leonardo Capitani ,Eawag,Food web modelling,Fish Ecology,Forecasting
-Nischal Devkota,UNIL,Aquatic Ecology,Plankton Biogeochemistry,Multilateral Policy
-lisa morales,Université de Genève,Ecology,Phytoplankton,Chytrid parasites
-Stefanie Merkli,Eawag (Aquatic Ecology),Plankton,Monitoring,
-marta reyes,EAWAG,plankton,monitoring,core sediments
-Aurélie Boissezon,HES-SO / HEPIA,macrophytes,,
-Christoph Walcher,eawag,fieldwork on / in waters,Scientific Diving,
-Nathalie Menetrey,"Direction de l'environnement, Protection des eaux VD",macroinvertébrés,limnologie,chimie
-Cindy De Jonge,ETH Zurich,Paleolimnology,Microbial,
-Fabio Lepori,DGE Canton Vaud,Eutrophication,Zooplankton,Ecological status assessment
-Camilla Capelli,SUPSI,phytoplankton ecology,HABs,water quality
-Nathalie Dubois,Eawag,Paleolimnology,sediment,limnogeology
-Maurizio Pozzoni,University of Applied Sciences and Arts of Southern Switzerland,Water temperature,Nutrient loads from tributaries,
-Thomas Posch,"University of Zurich, Limnological Station",Microbial food webs,Cyanobacteria,Protists
-Kristy Deiner,SimplexDNA AG,ecology,environmental DNA,conservation
-Natacha Tofield-Pasche,EPFL,Biogeochemistry,Nutrients cycling,Sedimentation
-Yves BELLOUARD,EPFL,Biochip,Optical vision system,
-Jérôme CHAPPELLAZ,EPFL,Greenhouse gases,,
-Silvana Kaeser,Eawag,phytoplankton,invasive species,taxonomy
-Christel Hassler,EPFL-ENAC-IIE_SENSE,trace elements,biogeochemistry,phytoplankton
-Pierre Rossi,EPFL GR-CEL ,Quagga mussels,Bacterial communities,
-Yiruo Xia,University of Geneva,phytoplankton,cyanobacteria,Harmful cyanobacterial blooms
-Antonia Klatt,University of Basel,lipid biomarkers,lipid hydrogen isotopes,phytoplankton communities
-Marco Baity Jesi,Eawag,Plankton classification,Plankton Forecasting,Complexity
-Barbara Känel,AWEL Kanton Zürich,Quality assesment of lakes,Plankton,Macrophytes
-Pius Niederhauser,AWEL Gewässerschutz,Monitoring,Seesanierung,seeinterne Sanierungsanlagen
-Elise Folly,Service de l'environnement Fribourg,chimie,physique,biologie
-Catherine Folly,Amt für Umwelt Freiburg,chemistry,physics,biology
-Willy  Tinner,University of Bern,Sediments,Water plants (autecology and communities),Subfossils (micro and macro)
-Yasmin Ghadyani,Eawag,Remote sensing,,
-François Mettra,HES-SO Valais Wallis - IEE - STREAM,Gravity current,Sediment input / resuspension,Nearshore hydrodynamics
-Thilo Herold,FOEN,"Coordination, specialized expertise",,
-Lukas De Ventura,"Kanton Aargau, Abteilung für Umwelt","Monitoring (physicochemical, plankton, benthos, fish larvae)",Lake Restoration management,Invasive species management
-Marion Jaussi,CREALP et Service de l'environnement (VS),Monitoring plan,small lakes' importance,minimum data requirements
-Philip Werner,UniL,Biogeochemistry,Element cycling,Mineral formation
-Claudia Frey,University of Basel,aquatic Nitrogen cycling ,water colum and sediment biogeochemistry,stable isotope applications
-Louise Noel du Payrat,ETHZ ,,,
-Rachele  Longhitano,Repubblica e Cantone Ticino,sensor installation,sensor calibration and maintenance,data analysis
-Matteo Tonellotto,Repubblica e Cantone Ticino - Ufficio del monitoraggio ambientale,,,
-Paul Magyar,Empa,greenhouse gases,biogeochemical cycling,stable isotopes
-Timon Langenegger,Kissling + Zbinden AG,Methane,Sediments,Noble gases
+name,affiliation,keyword1,keyword2,keyword3,,
+Oliver Heiri,University of Basel,paleolimnology,chironomids,environmental reconstruction,,
+Damien Bouffard,"Eawag, UNIL",hydrodynamic model,transport and mixing in lakes,aquatic physics,,
+David Janssen,Eawag,Chemistry,Redox,Nutrients,,
+Piet Spaak,SeeWandel-Climate,Quaggamussel,Zooplankton,Throphic Interactions,,
+Bastiaan Ibelings,University of Geneva,Phytoplankton,Cyanobacteria,Quagga mussels,,
+Martin Schmid,Eawag,Lake modelling,Climate change impacts,Heat usage,,
+Fabian Bärenbold,Eawag,climate change effects,lake simulation,small lakes,,
+Teresa Einzmann,University of Basel,N2O cycling,Stable isotopes,Microbiology,,
+Helmut Bürgmann,Eawag,Microbial Ecology (Protozoa),biogeochemical processes,"Antibiotic resistance, bacterial contamination",,
+Rolf Kipfer,"Eawag, Umweltisotope",Physcical limnology,tracer & gas hydrology,pore water analysis,,
+Matthew Blair,EAWAG,Environmental Microbiology,Antimicrobial Resistance ,Anthropogenic Discharges,,
+Bo Gai,Eawag,physical-biochemical modeling,limnophysics,climate change,,
+Nemiah Ladd,University of Basel,Sediments,Lipid biomarkers,Algae,,
+Mortimer Werther,EAWAG ,Remote Sensing,Phytoplankton,Machine learning,,
+Ricardo  N. Santos ,University of Basel,Lipid biomarkers ,Compound specific stable isotopes ,Paleo environment ,,
+Nicola Storelli,SUPSI,meromictic lakes,anoxygenic photosynthesis,evolution of life,,
+Theresa Wietelmann,University of Basel,,,,,
+Jordon Hemingway,ETH Zürich,organic carbon,mineralogy,pyrite,,
+Philine Feulner,eawag,lake fish,evolutionary genomics of lake fish,Alpine whitefish ecology and evolution,,
+Kremer Katrina,University of Bern,Sediment Archive,Natural Hazard,Monitoring,,
+Lisa Marchand,Eawag,sedimentology,bloom dynamics,paleotemperature reconstructions,,
+Nicole Russo,ETHZ/EAWAG,Lipids biomarkers,Paleoclimate ,,,
+Abolfazl Irani Rahaghi,eawag and University of Zurich,Remote sensing,Hydrodynamic modeling,Lake biophysics,,
+Moritz Lehmann,University of Basel,Biogeochemistry,stable isotopes,microbial ecology,,
+Elisa Calamita,Eawag,Physical limnology,Modelling,Impacts of Climate Change,,
+Mathurin  Wamba,Institute of Geological Sciences Bern,"Underflow, interflow","Lake waves, Lacustrine landslide, lacustrine erosion","Foehn effect on the lake, infragravty wave",,
+Nora Richter,EAWAG,Biomarkers,Paleo-reconstructions,Biogeochemical cycles,,
+Daniel McGinnis,UNIGE,Physical limnology,Greenhouse gas/Carbon Turnover,Climate change effects on Lakes,,
+Nina ZEyen,UNIGE,Volcanic Lakes ,Microbialites,Biomineralization,Nina.Zeyen@unige.ch,
+César  Ordóñez ,University of Geneva ,physical limnology ,greenhouse gases,climate change,,
+Blake Matthews,Eawag,Zooplankton ecology,Food webs,Adaptive evolution ,,
+Martin Grosjean,"Institute of Geography, Uni Bern",Lake sediments,biogeochemistry,Hyperspectral imaging,,
+Mridul Thomas,University of Geneva,phytoplankton,ecology,,,
+Jean Modeste Mushimiyimana,Eawag / ETHZ,Modelling,,,,
+Nischal Devkota,UNIL,,,,,
+Silwan Daouk,VSA-Plattform Wasserqualität,Micropollutants,,,,
+Nathalie Chèvre,Université de Lausanne,Chemical risk assessment,Lake biology,,,
+Isabel Herr,UNIL,Heat Flux,Alpine,,,
+Emmanuel Schaad,"University of Bern, Institute of Geography",pollution,sediments,restoration / conservation,,
+Tomy Doda,Unil,Water movements,Heat exchange,Box models,,
+FRANCK CATTANEO,HEPIA Genève,Fish,population dynamics,,,
+Robin Jacquat,Unine,Chemical accumulation,Water Jutsu,Cold swim,,
+Gaetan Sauter,University of Bern,sediments,bathymetry,deltas,,
+Stéphanie Girardclos,Université de Genève,lake sediments,limnogeology,dumped ammunitions,,
+Leonardo Capitani ,Eawag,Food web modelling,Fish Ecology,Forecasting,,
+Nischal Devkota,UNIL,Aquatic Ecology,Plankton Biogeochemistry,Multilateral Policy,,
+lisa morales,Université de Genève,Ecology,Phytoplankton,Chytrid parasites,,
+Stefanie Merkli,Eawag (Aquatic Ecology),Plankton,Monitoring,,,
+marta reyes,EAWAG,plankton,monitoring,Scientific diving,,
+Aurélie Boissezon,HES-SO / HEPIA,macrophytes,,,,
+Christoph Walcher,eawag,fieldwork on / in waters,Scientific Diving,,,
+Nathalie Menetrey,"Direction de l'environnement, Protection des eaux VD",macroinvertébrés,limnologie,chimie,,
+Cindy De Jonge,ETH Zurich,Paleolimnology,Microbial,,,
+Fabio Lepori,DGE Canton Vaud,Eutrophication,Zooplankton,Ecological status assessment,,
+Camilla Capelli,SUPSI,phytoplankton ecology,HABs,water quality,,
+Nathalie Dubois,Eawag,Paleolimnology,sediment,limnogeology,,
+Maurizio Pozzoni,University of Applied Sciences and Arts of Southern Switzerland,Water temperature,Nutrient loads from tributaries,,,
+Thomas Posch,"University of Zurich, Limnological Station",Microbial food webs,Cyanobacteria,Protists,,
+Kristy Deiner,SimplexDNA AG,ecology,environmental DNA,conservation,,
+Natacha Tofield-Pasche,EPFL,Biogeochemistry,Nutrients cycling,Sedimentation,,
+Yves BELLOUARD,EPFL,Biochip,Optical vision system,,,
+Jérôme CHAPPELLAZ,EPFL,Greenhouse gases,,,,
+Silvana Kaeser,Eawag,phytoplankton,invasive species,taxonomy,,
+Christel Hassler,EPFL-ENAC-IIE_SENSE,trace elements,biogeochemistry,phytoplankton,,
+Pierre Rossi,EPFL GR-CEL ,Quagga mussels,Bacterial communities,,,
+Yiruo Xia,University of Geneva,phytoplankton,cyanobacteria,Harmful cyanobacterial blooms,,
+Antonia Klatt,University of Basel,lipid biomarkers,lipid hydrogen isotopes,phytoplankton communities,,
+Marco Baity Jesi,Eawag,Plankton classification,Plankton Forecasting,Complexity,,
+Barbara Känel,AWEL Kanton Zürich,Quality assesment of lakes,Plankton,Macrophytes,,
+Pius Niederhauser,AWEL Gewässerschutz,Monitoring,Seesanierung,seeinterne Sanierungsanlagen,,
+Elise Folly,Service de l'environnement Fribourg,chimie,physique,biologie,,
+Catherine Folly,Amt für Umwelt Freiburg,chemistry,physics,biology,,
+Willy  Tinner,University of Bern,Sediments,Water plants (autecology and communities),Subfossils (micro and macro),,
+Yasmin Ghadyani,Eawag,Remote sensing,,,,
+François Mettra,HES-SO Valais Wallis - IEE - STREAM,Gravity current,Sediment input / resuspension,Nearshore hydrodynamics,,
+Thilo Herold,FOEN,"Coordination, specialized expertise",,,,
+Lukas De Ventura,"Kanton Aargau, Abteilung für Umwelt","Monitoring (physicochemical, plankton, benthos, fish larvae)",Lake Restoration management,Invasive species management,,
+Marion Jaussi,CREALP et Service de l'environnement (VS),Monitoring plan,small lakes' importance,minimum data requirements,,
+Philip Werner,UniL,Biogeochemistry,Element cycling,Mineral formation,,
+Claudia Frey,University of Basel,aquatic Nitrogen cycling ,water colum and sediment biogeochemistry,stable isotope applications,,
+Louise Noel du Payrat,ETHZ ,,,,,
+Rachele  Longhitano,Repubblica e Cantone Ticino,sensor installation,sensor calibration and maintenance,data analysis,,
+Matteo Tonellotto,Repubblica e Cantone Ticino - Ufficio del monitoraggio ambientale,,,,,
+Paul Magyar,Empa,greenhouse gases,biogeochemical cycling,stable isotopes,,
+Timon Langenegger,Kissling + Zbinden AG,Methane,Sediments,Noble gases,,
+Santona Khatun,EPFL,GHGs ,Freshwater lakes, Isotopy�,,santona.khatun@epfl.ch
+Marie-Elodie Perga,UNIL,Biogeochemistry,carbon,zooplankton,,marie-elodie.perga@unil.ch
+Petra Zahajska,UNIBE,Paleolimnology,Sedimentary archives,Organic micropollutants,,petra.zahajska@unibe.ch
+Salom� Boudet,UNIGE,Invasive species,quagga mussel, benthification,,Salome.Boudet@unige.ch
+Anita Narwani,Eawag,biodiversity,ecosystem functioning,phytoplankton,,Anita.Narwani@eawag.ch
+Mathilde Dugenne,,plankton ecology,image datasets,species interactions,,mathilde.dugenne@unige.ch
+Paulo Moccetti,SUPSI,Fish ecology,Population genomics,Zooplankton monitoirng,,mailto:paolo.moccetti@supsi.ch
+Pierre Marle,DJES Canton Vaud,Aquatic invertebrates,Biodiversity monitoring,Aquatic ecology,,pierre.marle@vd.ch
+Francesco Pomati,Eawag,Plankton ecology,Cyanobacteria blooms,Community dynamics�,,Francesco.Pomati@eawag.ch
+Bo Gai,Eawag,lake modeling,Phytoplankton bloom,Climate change,,Bo.Gai@eawag.ch
+Paul Moser Roeggla,Eawag,Physical limnology,Noble gas analysis,Mixing dynamics,,Paul.MoserRoeggla@eawag.ch
+Lea Fluri,See-land plan,Environmental Engineering,Applied research on lakeshore revitalization,lakeshore revitalization projects,,l.fluri@seelandplan.ch
