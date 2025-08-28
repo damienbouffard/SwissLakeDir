@@ -279,7 +279,7 @@ const KeywordSearchApp: React.FC = () => {
         <p>Keyword Directory Search Tool</p>
         <p>Don't see your name? Don't want to see your name? Suggestions? Please contact Damien Bouffard</p>
         <p>For privacy reasons, emails are not included</p>
-        <p>v.1.0. 2025.03</p>
+        <p>v.1.2. 2025.08</p>
       </footer>
     </div>
   );
